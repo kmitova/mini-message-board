@@ -3,3 +3,7 @@ extends layout
 block content
   h1= title
   p Welcome to #{title}
+  a(href="/new") Write a message
+  ul
+    each message in messages
+      li= message.text + ' by ' + message.user + ' on ' + message.added
