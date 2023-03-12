@@ -2,7 +2,7 @@ extends layout
 
 block content
   h1= title
-  p Welcome to #{title}
+  p(class='welcome-text') Welcome to #{title}
   a(href="/new") Write a message
   ul
     each message in messages

@@ -5,4 +5,64 @@ body {
 
 a {
   color: #00B7FF;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+/* INDEX */
+
+.welcome-text {
+  font-style: italic;
+  text-align: center;
+}
+
+ul {
+  border: 2px solid #00B7FF;
+  margin: auto;
+  margin-top: 2em;
+  width: 50%;
+  min-width: 70%;
+  border-radius: 5px;
+  padding: 1em;
+}
+
+li {
+  padding: .5em;
+  list-style: none;
+}
+
+
+
+/* FORM */
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  align-items: center;
+  border: #00B7FF 2px solid;
+  border-radius: 5px;
+  width: fit-content;
+  padding: .8em;
+  margin: auto;
+}
+
+input {
+  padding: .5em;
+  border: 1px solid #00B7FF;
+  border-radius: 2px;
+}
+
+.submit-btn {
+  background-color: #00B7FF;
+  border-radius: 3px;
+  border:#00B7FF 2px solid;
+  color: aliceblue;
+}
+
+.submit-btn:hover {
+  background-color: aliceblue;
+  color:#00B7FF
 }
